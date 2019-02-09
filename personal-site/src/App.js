@@ -10,17 +10,17 @@ class App extends Component {
   render() {
     return (
       <div>
-      <Navbar>
+      <Navbar bg="dark" variant="dark" fixed="top">
         <Navbar.Brand href="#home">Donia Tung </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-      <Nav.Link href="#about">About</Nav.Link>
-      <Nav.Link href="#resume">Resume</Nav.Link>
-      <Nav.Link href="https://github.com/doniatung"> GitHub </Nav.Link>
-    </Nav>
+          <Nav className="mr-auto">
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#resume">Resume</Nav.Link>
+            <Nav.Link href="https://github.com/doniatung"> GitHub </Nav.Link>
+          </Nav>
         </ Navbar.Collapse>
-      </Navbar>;
+      </Navbar>
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
